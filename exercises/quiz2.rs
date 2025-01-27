@@ -41,6 +41,7 @@ mod my_module {
                 Command::Uppercase => string.to_uppercase(),
                 Command::Trim => string.trim().to_string(),
                 Command::Append(n) => string.to_string() + &"bar".repeat(*n as usize),
+                _ => None
             };
             output.push(result_element);
         }
