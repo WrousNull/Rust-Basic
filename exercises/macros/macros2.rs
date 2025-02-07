@@ -14,4 +14,5 @@ macro_rules! my_macro {
 }
 fn main() {
     my_macro!();
+
 }
